@@ -1,6 +1,8 @@
 from utils.input_helpers import get_input_for as read_day
 import importlib
 
+
+
 def run_day(day: int, sample: bool, part1: bool):
     # # get day input and sample
     # print("Day number:", end="")
