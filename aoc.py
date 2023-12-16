@@ -10,6 +10,7 @@ def run_day(day: int, sample: bool, part1: bool):
 
     # print("Use sample (y/n): ", end="")
     # sample = bool(input() == "y")
+    # print('HI')
 
     # get lines for the input
     part_number = 1 if part1 else 2
@@ -22,3 +23,5 @@ def run_day(day: int, sample: bool, part1: bool):
 
     # run the solution
     solve(lines)
+
+print("To run, use the command  `python3 -c \"import aoc; aoc.run_day(day=<day_number>, sample=<sample>, part1=<part>)\"`")
