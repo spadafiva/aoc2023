@@ -24,4 +24,5 @@ def run_day(day: int, sample: bool, part1: bool):
     # run the solution
     solve(lines)
 
-print("To run, use the command  `python3 -c \"import aoc; aoc.run_day(day=<day_number>, sample=<sample>, part1=<part>)\"`")
+if __name__ == "__main__":
+    print("To run, use the command  `python3 -c \"import aoc; aoc.run_day(day=<day_number>, sample=<sample>, part1=<part>)\"`")
